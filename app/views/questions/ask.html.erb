@@ -1,4 +1,10 @@
-<form action="/answer" method="get" data-turbo="false">
-  <input type="text" name="question">
-  <input type="submit" value="Ask!">
-</form>
+<div class="container ask-layout" >
+  <h2>Stupid Coaching</h2>
+  <form action="/answer" method="get" data-turbo="false">
+    <label for="user_question">Ask your coach anything:</label>
+    <div class="search-form">
+      <input class = "search-form__input" id ="user_question" type="text" name="question">
+      <input class = "btn-primary search-form__button" type="submit" value="Ask!">
+    </div>
+  </form>
+</div>

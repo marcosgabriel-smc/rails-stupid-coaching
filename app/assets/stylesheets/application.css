@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+
+.ask-layout {
+  margin-top: 2rem;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  /* margin: 2rem; */
+}
+
+.search-form__input {
+  flex-grow: 1;
+}
+
+.card__speaker {
+  font-style: italic;
+}
+
+p {
+  margin: 0;
+}
+
+.card__css {
+  border-left-color: lightgrey;
+  border-width: 0px 0px 0px thick;
+}
+
+.go-back-link {
+  margin-top: 3rem;
+  text-align: right;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.coach-card {
+  background-color: lightyellow;
+}

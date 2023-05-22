@@ -1,4 +1,12 @@
-<h2><%=@question%></h2>
-<h2> <%=@answer%></h2>
-
-<%= link_to "Ask your Coach another question", "/ask" %>
+<div class="container mt-3">
+  <h2>Stupid Coaching</h2>
+  <div class="card my-3 p-3 card__css">
+    <p><%=@question.capitalize%></p>
+    <p class="card__speaker">- You</p>
+  </div>
+  <div class="card my-2 p-3 card__css coach-card">
+    <p> <strong><%=@answer%></strong></p>
+    <p class="card__speaker card_css">- Your Coach</p>
+  </div>
+  <%= link_to "Ask a new question", "/ask", class: "go-back-link" %>
+</div>
